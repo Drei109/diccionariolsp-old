@@ -1,0 +1,67 @@
+body {
+  font-family: "Muli", sans-serif !important;
+  color: #2e0201;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Nixie One", cursive;
+  font-weight: 600;
+}
+
+.title-font {
+  font-family: "Nixie One", cursive;
+  color: #2e0201 !important;
+}
+
+.primary-font {
+  font-family: "Nixie One", cursive;
+}
+
+.secondary-font {
+  font-family: "Muli", sans-serif !important;
+}
+
+h1 p {
+  line-height: 1.2;
+}
+
+.is-full-height {
+  height: 100vh;
+}
+
+.menu-main {
+  background-color: #eb0e1b;
+}
+
+.menu-main .menu-label {
+  color: white;
+  font-weight: 800;
+}
+
+.menu-main .menu-list li ul {
+  border: none;
+}
+
+.menu-main .menu-list a {
+  padding: 0;
+  color: #dddcdc;
+}
+
+.menu-main .menu-list a:hover {
+  background-color: #202020;
+}
+
+.step-text > li::before {
+  content: attr(data-content);
+  color: #b0b0b0;
+}
+
+@media only screen and (max-width: 620px) {
+  .step-text > li {
+    padding-left: 0px;
+    padding-top: 4em;
+  }
+}
+
